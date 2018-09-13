@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView3"
+        style="@style/style1"
+        android:text="Pikachu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.049"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pikachu" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:text="Pokemon"
+        style="@style/style2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pokemon" />
+
+    <TextView
+        android:id="@+id/textView5"
+        style="@style/style3"
+        android:text="Pikachu, the Mouse Pokémon.  Pikachu's tail is sometimes struck by lightning as it raises it to check its surroundings"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Pikachu, the Mouse Pokémon.  Pikachu's tail is sometimes struck by lightning as it raises it to check its surroundings" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        style="@style/style4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/pikachu" />
+
+    <TextView
+        android:id="@+id/textView6"
+        style="@style/style5"
+        android:text="SpiderMan"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="SpiderMan" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:text="Superhero"
+        style="@style/style6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Superhero" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        style="@style/style7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/spiderman" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:text="Timmy Turner"
+        style="@style/style8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Timmy Turner" />
+
+    <TextView
+        android:id="@+id/textView10"
+        style="@style/style9"
+        android:text="Average Kid"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="Average Kid" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+       style="@style/style10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.972"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.698"
+        app:srcCompat="@drawable/timmy" />
+
+    <TextView
+        android:id="@+id/textView12"
+        style="@style/style11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        style="@style/style12"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView15"
+        style="@style/style14"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView16"
+        style="@style/style15"
+        android:text="Spider-Man is a fictional superhero created by writer-editor Stan Lee and writer-artist Steve Ditko. His real life name is Peter Parker and his part time job is a photographer "
+        android:textAlignment="viewStart"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text="Spider-Man is a fictional superhero created by writer-editor Stan Lee and writer-artist Steve Ditko. His real life name is Peter Parker and his part time job is a photographer " />
+
+    <TextView
+        android:id="@+id/textView17"
+        style="@style/style16"
+        android:text='Timothy "Timmy" Tiberius Turner is a ten year old boy who is the main protagonist of "The Fairly OddParents", alongside his fairy godparents, Cosmo and Wanda.'
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:text='Timothy "Timmy" Tiberius Turner is a ten year old boy who is the main protagonist of "The Fairly OddParents", alongside his fairy godparents, Cosmo and Wanda.' />
+
+    <TextView
+        android:id="@+id/textView"
+        style="@style/style13"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594"
+        tools:layout_editor_absoluteX="0dp" />
+</android.support.constraint.ConstraintLayout>
